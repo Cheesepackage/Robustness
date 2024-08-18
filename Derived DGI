@@ -1,0 +1,28 @@
+About derived DGI:
+1. 2024-mobile networks and applications(四区)-Multi‐DGI: Multi‐head Pooling Deep Graph Infomax for Human Activity Recognition，使用了多个DGI，没有太大创新
+
+论文链接：https://link.springer.com/article/10.1007/s11036-024-02306-y
+
+2. 2023-AAAI-Deep Graph Structural Infomax (DGSI)，加了结构的MI
+
+论文链接：https://ojs.aaai.org/index.php/AAAI/article/view/25618
+
+3. 2023-AAAI-Human Mobility Modeling during the COVID-19 Pandemic via Deep Graph Diffusion Infomax（DGDI），位置embedding，gnn的embedding，diffusion的embedding，三者之间的MI
+
+论文链接：https://arxiv.org/pdf/2212.05707
+
+4. 2023-Journal of Computer Information Systems-Deep Temporal Graph Infomax for Imbalanced Insider Threat Detection，动态网络 上下文约束
+
+论文链接：https://www.tandfonline.com/doi/epdf/10.1080/08874417.2023.2267510?needAccess=true
+
+5. 2023-KBS-Graph pooling via Dual-view Multi-level Infomax（DMIPool），多级图池化
+
+论文链接：https://www.sciencedirect.com/science/article/pii/S0950705122011856
+
+6. 2022-journal of nonlinear science(数学方面的三类期刊)-Dynamic community detection over evolving networks based on the optimized deep graph infomax(ODDGI)，用于解决动态图一个方法
+
+论文链接：https://pubs.aip.org/aip/cha/article-abstract/32/5/053119/2835737/Dynamic-community-detection-over-evolving-networks?redirectedFrom=fulltext
+
+7. 2020-KBS-Deep multiplex graph infomax: Attentive multiplex network embedding using global information(DMGI)，针对异构图多视图增强（多种关系）
+
+论文链接：https://www.sciencedirect.com/science/article/pii/S0950705120302240
