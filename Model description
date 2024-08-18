@@ -1,0 +1,15 @@
+Latex description:
+
+About robust GNNs:
+\begin{itemize}
+    \item GCN ~\cite{kipf2016semi}: This is one of the most representative GCN models owing to its effectiveness, which leverages the spatial graph convolution operator to generate embeddings.    
+    \item ProGNN ~\cite{jin2020graph}: ProGNN explores the low-rankness, sparsity and feature smoothness of target graphs. This is an end-to-end method that learns graph structure and GNN parameters simultaneously.
+    \item STABLE ~\cite{li2022reliable}: STABLE is an unsupervised pipeline designed to optimize graph structure by generating representations that integrate feature and structural information while being resilient to perturbations.
+    \item Mid-GCN ~\cite{huang2023robust}: Mid-GCN enhances the robustness of GCNs against adversarial attacks by using a mid-pass filter to focus on mid-frequency signals.
+    \item V-InfoR~\cite{wang2024v}: V-InfoR enhances GNN explanation robustness by using variational inference to infer latent graph representations and applying a graph information bottleneck approach to adaptively handle both regular and irregular structural corruptions.
+    \item HANG~\cite{yang2024self}: HANG improves GNN robustness against adversarial attacks by leveraging conservative Hamiltonian neural flows with Lyapunov stability, inspired by physics principles.
+    \item DGI~\cite{velickovic2019deep}: DGI relies on maximizing the mutual information between graph augmentations and the extracted graph information, both derived using established graph convolutional network architectures.
+    \item MetaAttack~\cite{zugner_adversarial_2019}: MetaAttack is employed as the non-target graph adversarial attack method, which is an effective attack method. We set the perturbation rate of Metattack from 0\% to 25\% with an interval of 5\%, and adopted its default parameter settings from the initial implementation.
+    \item Nettack~\cite{zugner2018adversarial}: Nettack is a target graph adversarial attack method, and we follow the default parameter settings in the authors' original implementation. We set the number of perturbations made on every targeted node from 0 to 5 with a step size of 1. The nodes in the test set with a degree larger than 10 are treated as target nodes.
+    \item Random: Inject random structure noise. We set the perturbation rate of Random from 0\% to 100\% with an interval of 20\%.
+\end{itemize}
