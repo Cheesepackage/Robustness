@@ -1,0 +1,57 @@
+Latex description:
+
+The statistical information of the four datasets for adversarial attacks:
+\begin{table}[]
+\centering
+\setlength{\tabcolsep}{3mm} % 调整列间距
+\begin{tabular}{lllll}
+\hline
+\addlinespace
+Datasets & Nodes & Edges & Features & Classes \\ \hline \addlinespace
+Cora     & 2485  & 5069  & 1433     & 7       \\
+Cora\_ML & 2810  & 7981  & 2879     & 7       \\
+Citeseer & 2110  & 3668  & 3703     & 6       \\
+Pubmed   & 19717 & 44338 & 500      & 3       \\ \hline
+\end{tabular}
+\caption{The statistical information of the four datasets for adversarial attacks.}
+\label{tab:dataset_stats_att}
+\end{table}
+
+The statistical information of the nine datasets for node classification and link prediction:
+\begin{table}[]
+\centering
+\setlength{\tabcolsep}{1.8mm} % 调整列间距
+\begin{tabular}{cccccc}
+\hline
+\addlinespace
+Datasets & Nodes & Edges & Features & Classes & $\eta$ \\ \hline \addlinespace
+Cora     & 2708  & 5429  & 1433     & 7   & 0.81    \\
+Citeseer & 3327  &  4732 & 3703     & 6   & 0.74    \\
+Pubmed & 19717  & 44338  & 500     & 3   & 0.80    \\
+Cora\_ML   & 2995 & 8158 & 2876      & 7   & 0.82    \\
+DBLP   & 17716 & 52867 & 1639      & 4   & 0.79    \\
+Cornell   & 183 & 298 & 1703      & 5   & 0.31    \\
+Texas   & 183 & 298 & 1703      & 5    & 0.11   \\
+Wisconsin   & 251 & 515 & 1703      & 5   & 0.20    \\
+Actor   & 7600 & 30019 & 932      & 5    & 0.22   \\ \hline
+\end{tabular}
+\caption{The statistical information of the nine datasets for node classification and link prediction.}
+\label{tab:dataset_stats}
+\end{table}
+
+The statistical information of the four datasets for graph classification:
+\begin{table}[]
+\centering
+\setlength{\tabcolsep}{1.6mm} % 调整列间距
+\begin{tabular}{llllll}
+\hline
+\addlinespace
+Datasets & \#G & Avg\#N & Avg\#E & \#Cls & $d$ \\ \hline \addlinespace
+MUTAG     & 188  & 17.93  & 2.23 & 2     & 7       \\
+PROTEINS & 1113  & 39.06 & 3.71 & 2     & 3       \\
+IMDB-B & 1000  & 19.77 & 9.82 & 2     & NA       \\
+IMDB-M   & 1500 & 13.00 & 10.10 & 3      & NA       \\ \hline
+\end{tabular}
+\caption{The statistical information of the four datasets for graph classification.}
+\label{tab:dataset_stats_graph}
+\end{table}
